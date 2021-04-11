@@ -4,7 +4,7 @@
 int main(int argc, char * argv[])
 {
     FILE * file_password = fopen("rockyou.txt", "r");
-    int found = 0;  # the value of this variable becomes 1 when the password is stored in the wordlist
+    int found = 0;  // the value of this variable becomes 1 when the password is stored in the wordlist
     char password_read[20], my_password[20];
     
     printf("Insert the password you want to check: ");
